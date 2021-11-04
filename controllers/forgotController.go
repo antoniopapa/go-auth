@@ -4,8 +4,8 @@ import (
 	"math/rand"
 	"net/smtp"
 
-	"../database"
-	"../models"
+	"github.com/antoniopapa/go-auth/database"
+	"github.com/antoniopapa/go-auth/models"
 	"github.com/gofiber/fiber/v2"
 	"golang.org/x/crypto/bcrypt"
 )

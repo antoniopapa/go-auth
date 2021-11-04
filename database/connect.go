@@ -1,7 +1,7 @@
 package database
 
 import (
-	"../models"
+	"github.com/antoniopapa/go-auth/models"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 )
