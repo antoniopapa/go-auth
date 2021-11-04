@@ -1,12 +1,13 @@
 package controllers
 
 import (
-	"../database"
-	"../models"
-	"github.com/gofiber/fiber"
-	"golang.org/x/crypto/bcrypt"
 	"math/rand"
 	"net/smtp"
+
+	"../database"
+	"../models"
+	"github.com/gofiber/fiber/v2"
+	"golang.org/x/crypto/bcrypt"
 )
 
 func Forgot(c *fiber.Ctx) error {
